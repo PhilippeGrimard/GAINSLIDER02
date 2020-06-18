@@ -51,7 +51,7 @@ void Gainslider02AudioProcessorEditor::resized()
     mGainSlider.setBounds(getWidth()/2-50, getHeight()/2-75, 100, 150);
 }
 
-void Gainslider02AudioProcessorEditor::sliderValueChanged(<#Slider *slider#>)
+void Gainslider02AudioProcessorEditor::sliderValueChanged(Slider* slider)
 {
     if(slider== &mGainSlider)
     {
